@@ -1,0 +1,45 @@
+[FILE FORMAT]
+TYPE,CD3
+VERSION,3.0
+[END]
+[STATION NUMBER]
+19017
+[END]
+[CDS DETAILS]
+NAME,Gogar Burn
+LOCATION,Turnhouse
+NOMINAL AREA,39.709999
+NOMINAL NGR,3161,6732
+[END]
+[DESCRIPTORS]
+IHDTM NGR,GB,316150,673250
+CENTROID NGR,GB,314451,669072
+DTM AREA,32.39
+ALTBAR,113
+ASPBAR,6
+ASPVAR,0.39
+BFIHOST,0.480
+DPLBAR,6.73
+DPSBAR,45.6
+FARL,0.990
+FPEXT,0.1279
+LDP,20.65
+PROPWET,0.49
+RMED-1D,35.3
+RMED-1H,8.6
+RMED-2D,45.0
+SAAR,773
+SAAR4170,760
+SPRHOST,44.56
+URBCONC2000,0.911
+URBEXT2000,0.0200
+URBLOC2000,0.671
+[END]
+[SUITABILITY]
+POOLING,YES
+QMED,YES
+[END]
+[COMMENTS]
+STATION,NRFA Comment: Rated section with small low flow control and large masonry broad crested weir controlling higher flows. The river tends to flood u/s of the station with consequent damping of its hydrographs. Exceptional peak flow in April 2000 followed storm totals exceeding 80mm. Small net impact on runoff due to airport discharges
+User,SM Comment: This is not a Hiflows UK gauge, but advice from Drew Aitkins of SEPA indicates that the data is suitable for QMED and Pooling.  SEPA also advise that 7km2 Corstorphine catchment included in FEH CD Rom does not contribute to Gogar Burn, therefore catchment descriptors above have been altered to account for this using the area-weighting method from FEH Vol 5.  SEPA advise that there is a CSO 500m u/s of the gauge, the influence of which can be seen as an early peak on the rising limb of flood hydrographs before the main peak.  This suggests that the CSO catchment responds much faster than Gogar Burn, so the contribution should not impact on AMAX values.
+[END]

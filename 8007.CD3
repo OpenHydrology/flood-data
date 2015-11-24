@@ -1,0 +1,46 @@
+[FILE FORMAT]
+TYPE,CD3
+VERSION,3.0
+[END]
+[STATION NUMBER]
+8007
+[END]
+[CDS DETAILS]
+NAME,Spey
+LOCATION,Invertruim
+NOMINAL AREA,400.399994
+NOMINAL NGR,2687,7962
+[END]
+[DESCRIPTORS]
+IHDTM NGR,GB,268650,796200
+CENTROID NGR,GB,258191,791354
+DTM AREA,401.59
+ALTBAR,518
+ASPBAR,311
+ASPVAR,0.03
+BFIHOST,0.411
+DPLBAR,21.54
+DPSBAR,181.3
+FARL,0.945
+FPEXT,0.0539
+LDP,41.13
+PROPWET,0.75
+RMED-1D,39.5
+RMED-1H,10.0
+RMED-2D,55.6
+SAAR,1431
+SAAR4170,1445
+SPRHOST,51.15
+URBEXT2000,0.0000
+[END]
+[SUITABILITY]
+POOLING,NO
+QMED,YES
+[END]
+[COMMENTS]
+STATION,Velocity area station, about 50m wide, natural control; frequent rating changes. Flows suspect from winter 1994/95 as inlet pipes were broken giving results of doubtful accuracy until 1999. Bypassing at flows above 1.8m on both banks. RATING COMMENTS:Rating derived from current meter gaugings up to 1.8m (1.6QMED), simple extrapolation beyond. High flow rating was revised in 1996 (by SEPA) and a new single rating was judged to be suitable for whole period of record.
+CATCHMENT,Granite and Moinian metamorphic. Mountainous headwaters, often snowy in winter. Altitudes: 951mAOD (max), 240mAOD (min). Mainly moorland, limited pastoral in valley bottoms. Hydrometric Register BFI=0.52. ARTIFICIAL INFLUENCES:200.4 sq km developed for hydro-power by British Aluminium, 86.4 sq km developed by Scottish Electric (total 72%); diversions and storage influence regime, major reduction in runoff. Reservoirs for hydropower: Spey Dam (1944), Cuaich Dam (1961). CATCHMENT CHANGES:1961 Cuaich Dam constructed for hydro-power.
+Qmed Suitability,No comment
+Pooling Suitability,Bypassing of gauge over flood plain when stage exceeds 1.8
+User,
+[END]

@@ -1,0 +1,50 @@
+[FILE FORMAT]
+TYPE,CD3
+VERSION,3.0
+[END]
+[STATION NUMBER]
+ 84020
+[END]
+[CDS DETAILS]
+NAME,Glazert Water
+LOCATION,Milton of Campsie
+NOMINAL AREA,   51.90
+NOMINAL NGR,2656,6763
+[END]
+[DESCRIPTORS]
+IHDTM NGR,GB     ,265600,676300
+CENTROID NGR,GB,261408,679737
+DTM AREA,   51.90
+ALTBAR, 274
+ASPBAR,171
+ASPVAR,0.33
+BFIHOST,0.414
+DPLBAR,  8.09
+DPSBAR,143.7
+FARL,0.991
+FPEXT,0.0525
+LDP, 15.20
+PROPWET,0.59
+RMED-1H, 10.2
+RMED-1D, 42.8
+RMED-2D, 58.9
+SAAR,1561
+SAAR4170,1570
+SPRHOST,45.25
+URBCONC1990, 0.580
+URBEXT1990,0.0089
+URBLOC1990, 0.380
+URBCONC2000, 0.685
+URBEXT2000,0.0101
+URBLOC2000, 0.452
+[END]
+[SUITABILITY]
+QMED,YES
+POOLING,YES
+[END]
+[COMMENTS]
+STATION,Velocity-area station with broad crested weir with rectangular low flow notch as control for low flows. Breakpoint of low flow notch is at 0.36m and the structure is drowned out at 1.5m. To date all flows contained. RATING COMMENTS:Rating derived from current meter gaugings up to 1.5m (0.8QMED), simple extrapolation beyond.
+CATCHMENT,Carboniferous series (principally the Scottish Carboniferous Limestone), overlain by drift. Altitudes: 578mAOD (max) and 38mAOD (min). An upland catchment draining the Campsie Fells. Mainly rough pasture and improved pasture in lower parts, forest cover (5 %). Flashy response. Hydrometric Register BFI=0.31. ARTIFICIAL INFLUENCES:Minimal effluent returns affecting low flows. CATCHMENT CHANGES:No significant changes known.
+Qmed Suitability,No comment
+Pooling Suitability,No comment
+[END]

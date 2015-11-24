@@ -1,0 +1,46 @@
+[FILE FORMAT]
+TYPE,CD3
+VERSION,3.0
+[END]
+[STATION NUMBER]
+8008
+[END]
+[CDS DETAILS]
+NAME,Tromie
+LOCATION,Tromie Bridge
+NOMINAL AREA,130.300003
+NOMINAL NGR,2789,7995
+[END]
+[DESCRIPTORS]
+IHDTM NGR,GB,278950,799500
+CENTROID NGR,GB,276489,786784
+DTM AREA,131.51
+ALTBAR,623
+ASPBAR,8
+ASPVAR,0.10
+BFIHOST,0.447
+DPLBAR,18.56
+DPSBAR,212.0
+FARL,0.898
+FPEXT,0.0311
+LDP,29.33
+PROPWET,0.72
+RMED-1D,38.0
+RMED-1H,10.1
+RMED-2D,56.8
+SAAR,1437
+SAAR4170,1451
+SPRHOST,53.52
+URBEXT2000,0.0000
+[END]
+[SUITABILITY]
+POOLING,YES
+QMED,YES
+[END]
+[COMMENTS]
+STATION,Velocity area station, about 15m wide, natural control; frequent rating changes. Very turbulent flow. Problems with rock/boulder control due to spates. Control has been re-built twice in 1990s. Normal shifting of gravels may slight influence ratings. RATING COMMENTS:New high flow rating obtained in 1996, applied from 1953 to the spate of 04/04/90; from current meter gaugings up to 1.2m (0.9QMED), simple extrapolation beyond. Post-1990 rating based on few gaugings (up to 0.6QMED) and will need revision.
+CATCHMENT,Mountainous (part of Cairngorms), often snowy in winter. Altitudes: 951mAOD (max), 242mAOD (min). Mountains, moorland, almost no tree cover. Hydrometric Register BFI=0.57. ARTIFICIAL INFLUENCES:Large proportion (>70%) of the catchment developed for hydro-power with major diversions out of catchment. Reservoir for hydropower: Loch an T-Seilich (1941) CATCHMENT CHANGES:No significant changes known during period of record.
+Qmed Suitability,No comment
+Pooling Suitability,With the caveat that flow data from Feb 1990 onwards has been estimated using a rating curve based on only 4 gaugings the maximum of which is only about 30 cumecs.
+User,
+[END]

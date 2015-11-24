@@ -1,0 +1,50 @@
+[FILE FORMAT]
+TYPE,CD3
+VERSION,3.0
+[END]
+[STATION NUMBER]
+ 11001
+[END]
+[CDS DETAILS]
+NAME,Don                   
+LOCATION,Parkhill                           
+NOMINAL AREA, 1273.00
+NOMINAL NGR,3887,8141
+[END]
+[DESCRIPTORS]
+IHDTM NGR,GB     ,388900,814100
+CENTROID NGR,GB,357673,817761
+DTM AREA, 1269.46
+ALTBAR, 262
+ASPBAR, 96
+ASPVAR,0.10
+BFIHOST,0.584
+DPLBAR, 59.90
+DPSBAR,111.3
+FARL,0.996
+FPEXT,0.0588
+LDP,127.35
+PROPWET,0.52
+RMED-1H,  8.3
+RMED-1D, 34.4
+RMED-2D, 47.2
+SAAR, 884
+SAAR4170, 964
+SPRHOST,31.27
+URBCONC1990,-9.999
+URBEXT1990,0.0029
+URBLOC1990,-9.999
+URBCONC2000,-9.999
+URBEXT2000,0.0041
+URBLOC2000,-9.999
+[END]
+[SUITABILITY]
+QMED,YES
+POOLING,YES
+[END]
+[COMMENTS]
+STATION,Lowest of three gauging stations on the Don. Velocity area station, about 37m wide, natural control. Complex low flow rating history. Weed growth is a problem during summer. Flow records for 1969-1986 reprocessed in 1987; significant revisions in high and low flow range. RATING COMMENTS:Rating derived from current meter gaugings up to 3.7m (2.2QMED) and simple extrapolation beyond. One rating was applied to the whole record.
+CATCHMENT,Mainly Dalradian metamorphics with large amounts of basic intrusives and small pockets of Old Red Sandstone. Altitudes: 872mAOD (max) and 32mAOD (min). Mountainous headwaters, mainly snowy in winter. High moorland, forest cover (20%), pastoral and arable in lower valleys. Notable floodplains which may be an issue, mainly in the lower reaches. Hydrometric register BFI=0.68. ARTIFICIAL INFLUENCES:Natural regime. CATCHMENT CHANGES:No major changes, but increased urbanisation in Inverurie.
+Qmed Suitability,No comment
+Pooling Suitability,No comment
+[END]
