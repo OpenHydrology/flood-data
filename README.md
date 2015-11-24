@@ -1,2 +1,32 @@
-# flood-data
+# UK Flood Data
+
 Additional flood data for use in OH Auto Statistical (web version)
+
+This repository contains flood flow data additional to the data included in
+the National River Flow Archive (NRFA). The web version of OH Auto Statistical
+pulls in these additional data to allow flood frequency-magnitude estimation
+using the most up to date data available.
+
+This respository is available for *anyone* using the OH Auto Statistical
+software. Other users of the software will also benefit from your data
+updates.
+
+To add your data, please use the GitHub pull request approach. You can either
+work online or create a local copy ("clone") of this repository to work in
+(recommended).
+
+For each station you want to update, do this:
+
+1. Create and switch to a new branch `station-{nrfa_id}`
+2. Drop in your `.cd3` and `.am` files and edit these as required with the new
+   data.
+3. Make sure to set or check QMED and growth curve suitability as appropriate.
+4. Create a GitHub "pull request" to request merging of your data back into
+   this repository.
+5. We will review your data and merge it.
+
+**Your updates will become available for anybody using OH Auto Statistical.
+Please make sure your updates are correct and are from a reliable source.**
+
+If you have any questions or need support, please email [Florenz Hollebrandse]
+(fhollebrandse@envirocentre.co.uk).
