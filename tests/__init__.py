@@ -48,3 +48,9 @@ class TestValidFiles(unittest.TestCase):
                                    msg="Record {} in {} does not have a `flow`>0.".format(i + 1, am_fn))
                 self.assertLess(am.flow, 10000,
                                 msg="Record {} in {} does not have a `flow`<1000.".format(i + 1, am_fn))
+
+    def test_am_foreach_cd3(self):
+        for cd3_fn in self._files_by_ext('.cd3'):
+            self.assertTrue(os.path.isfile(os.path.splitext(cd3_fn)[0] + '.am') or
+                            os.path.isfile(os.path.splitext(cd3_fn)[0] + '.AM'),
+                            msg="Catchment {} does not have a corresponding .am file.".format(cd3_fn))
