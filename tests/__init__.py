@@ -31,6 +31,10 @@ class TestValidFiles(object):
                        msg="Catchment {} does not have a `id`<1000000.".format(cd3_fn))
         nt.assert_true(isinstance(c.descriptors.centroid_ngr, entities.Point),
                        msg="Catchment {} does not have centroid coordinates.".format(cd3_fn))
+        nt.assert_true(c.location is not None and len(c.location) > 3,
+                       msg="Catchment {} does not have a valid `location`".format(cd3_fn))
+        nt.assert_true(c.watercourse is not None and len(c.location) > 3,
+                       msg="Catchment {} does not have a valid `watercourse`".format(cd3_fn))
 
     def test_cd3_descriptors(self):
         descrs = [
