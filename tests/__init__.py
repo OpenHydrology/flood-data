@@ -25,20 +25,38 @@ class TestValidFiles(object):
 
     def check_cd3_file(self, cd3_fn):
         c = parsers.Cd3Parser().parse(os.path.join(DATA_FOLDER, cd3_fn))
+        nt.assert_greater(c.id, 2000,
+                          msg="Catchment {} does not have a `id`>2000.".format(cd3_fn))
+        nt.assert_less(c.id, 1000000,
+                       msg="Catchment {} does not have a `id`<1000000.".format(cd3_fn))
         nt.assert_true(isinstance(c.descriptors.centroid_ngr, entities.Point),
                        msg="Catchment {} does not have centroid coordinates.".format(cd3_fn))
-        nt.assert_greater(c.descriptors.dtm_area, 0,
-                          msg="Catchment {} does not have a `dtm_area`>0.".format(cd3_fn))
-        nt.assert_less(c.descriptors.dtm_area, 10000,
-                       msg="Catchment {} does not have a `dtm_area`<10000.".format(cd3_fn))
-        nt.assert_greater_equal(c.descriptors.bfihost, 0,
-                                msg="Catchment {} does not a `bfi_host`>=0.".format(cd3_fn))
-        nt.assert_less_equal(c.descriptors.bfihost, 1,
-                             msg="Catchment {} does not a `bfi_host`<=1.".format(cd3_fn))
-        nt.assert_greater(c.descriptors.saar, 250,
-                          msg="Catchment {} does not have a `saar`>250.".format(cd3_fn))
-        nt.assert_less(c.descriptors.saar, 5000,
-                       msg="Catchment {} does not have a `saar`<5000.".format(cd3_fn))
+
+    def test_cd3_descriptors(self):
+        descrs = [
+            # param, min, max
+            ('centroid_ngr_x', 0.1, 800000),
+            ('centroid_ngr_y', 0.1, 1200000),
+            ('dtm_area', 0.1, 20000),
+            ('bfihost', 0, 1),
+            ('saar', 400, 4000),
+            ('farl', 0.5, 1),
+            ('fpext', 0, 0.5),
+            ('sprhost', 1, 70),
+            ('urbext2000', 0, 1)
+        ]
+        for cd3_fn in self._files_by_ext('.cd3'):
+            c = parsers.Cd3Parser().parse(os.path.join(DATA_FOLDER, cd3_fn))
+            for descr in descrs:
+                yield self.check_descriptor_between, c, descr[0], descr[1], descr[2]
+
+    def check_descriptor_between(self, catchment, descr, lower, upper):
+        nt.assert_greater_equal(getattr(catchment.descriptors, descr), lower,
+                                msg="Catchment {} does not have a `descriptors.`{}>={}"
+                                .format(catchment.id, descr, lower))
+        nt.assert_less_equal(getattr(catchment.descriptors, descr), upper,
+                             msg="Catchment {} does not have a `descriptors.`{}<={}"
+                             .format(catchment.id, descr, upper))
 
     def test_am_files(self):
         for am_fn in self._files_by_ext('.am'):
