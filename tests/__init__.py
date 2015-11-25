@@ -17,14 +17,15 @@ class TestValidFiles(unittest.TestCase):
         return not any(i in seen or seen.add(i) for i in x)
 
     def test_cd3_files(self):
-        for cd3_fn in self._files_by_ext('.cd3'):
-            c = parsers.Cd3Parser().parse(cd3_fn)
+        for cd3_fp in self._files_by_ext('.cd3'):
+            cd3_fn = os.path.basename(cd3_fp)
+            c = parsers.Cd3Parser().parse(cd3_fp)
             self.assertTrue(isinstance(c.descriptors.centroid_ngr, entities.Point),
                             msg="Catchment {} does not have centroid coordinates.".format(cd3_fn))
             self.assertGreater(c.descriptors.dtm_area, 0,
-                               msg="Catchment {} does not have a dtm_area>0.".format(cd3_fn))
+                               msg="Catchment {} does not have a `dtm_area`>0.".format(cd3_fn))
             self.assertLess(c.descriptors.dtm_area, 10000,
-                            msg="Catchment {} does not have a dtm_area<10000.".format(cd3_fn))
+                            msg="Catchment {} does not have a `dtm_area`<10000.".format(cd3_fn))
             self.assertGreaterEqual(c.descriptors.bfihost, 0,
                                     msg="Catchment {} does not a `bfi_host`>=0.".format(cd3_fn))
             self.assertLessEqual(c.descriptors.bfihost, 1,
@@ -35,10 +36,11 @@ class TestValidFiles(unittest.TestCase):
                             msg="Catchment {} does not have a `saar`<5000.".format(cd3_fn))
 
     def test_am_files(self):
-        for am_fn in self._files_by_ext('.am'):
-            records = parsers.AmaxParser().parse(am_fn)
+        for am_fp in self._files_by_ext('.am'):
+            am_fn = os.path.basename(am_fp)
+            records = parsers.AmaxParser().parse(am_fp)
             self.assertTrue(self.all_unique(am.water_year for am in records),
-                            msg="Records in {} do not have unique water years.".format(am_fn))
+                            msg="Records in {} do not have unique water years.".format(am_fp))
             for i, am in enumerate(records):
                 self.assertGreater(am.water_year, 1800,
                                    msg="Record {} in {} does not have a `water_year`>1800.".format(i + 1, am_fn))
@@ -50,7 +52,8 @@ class TestValidFiles(unittest.TestCase):
                                 msg="Record {} in {} does not have a `flow`<1000.".format(i + 1, am_fn))
 
     def test_am_foreach_cd3(self):
-        for cd3_fn in self._files_by_ext('.cd3'):
-            self.assertTrue(os.path.isfile(os.path.splitext(cd3_fn)[0] + '.am') or
-                            os.path.isfile(os.path.splitext(cd3_fn)[0] + '.AM'),
+        for cd3_fp in self._files_by_ext('.cd3'):
+            cd3_fn = os.path.basename(cd3_fp)
+            self.assertTrue(os.path.isfile(os.path.splitext(cd3_fp)[0] + '.am') or
+                            os.path.isfile(os.path.splitext(cd3_fp)[0] + '.AM'),
                             msg="Catchment {} does not have a corresponding .am file.".format(cd3_fn))
