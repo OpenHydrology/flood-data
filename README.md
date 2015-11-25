@@ -2,6 +2,8 @@
 
 Additional flood data for use in OH Auto Statistical (web version)
 
+File validator status: [![Build Status](https://travis-ci.org/faph/flood-data.svg)](https://travis-ci.org/faph/flood-data)
+
 This repository contains flood flow data additional to the data included in
 the National River Flow Archive (NRFA). The web version of OH Auto Statistical
 pulls in these additional data to allow flood frequency-magnitude estimation
@@ -17,7 +19,7 @@ work online or create a local copy ("clone") of this repository to work in
 
 For each station you want to update, do this:
 
-1. Create and switch to a new branch `station-{nrfa_id}`
+1. Create and switch to a new branch named `station-{nrfa_id}`
 2. Drop in your `.cd3` and `.am` files and edit these as required with the new
    data.
 3. Make sure to set or check QMED and growth curve suitability as appropriate.
