@@ -2,6 +2,7 @@
 
 import nose.tools as nt
 import os
+import warnings
 from floodestimation import parsers
 from floodestimation import entities
 
@@ -89,3 +90,13 @@ class TestValidFiles(object):
         nt.assert_true(os.path.isfile(os.path.splitext(cd3_fp)[0] + '.am') or
                        os.path.isfile(os.path.splitext(cd3_fp)[0] + '.AM'),
                        msg="Catchment {} does not have a corresponding .am file.".format(cd3_fn))
+
+    def test_qmed_suitable(self):
+        for cd3_fn in self._files_by_ext('.cd3'):
+            yield self.check_qmed_suitable, cd3_fn
+
+    def check_qmed_suitable(self, cd3_fn):
+        c = parsers.Cd3Parser().parse(os.path.join(DATA_FOLDER, cd3_fn))
+        if not c.is_suitable_for_qmed:
+            warnings.warn("Catchment {} is marked as not being suitable for QMED donor analyses. Please check if that "
+                          "is correct.".format(cd3_fn))
