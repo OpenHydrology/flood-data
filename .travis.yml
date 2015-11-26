@@ -20,3 +20,6 @@ install: true
 
 script:
 - nosetests
+
+after_success:
+- python webhook.py
