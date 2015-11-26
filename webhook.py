@@ -2,11 +2,11 @@ import requests
 import os
 import logging
 
-logger = logging.getLogger('simple_example')
+logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 ch = logging.StreamHandler()
 ch.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+formatter = logging.Formatter('%(levelname)s: %(message)s')
 ch.setFormatter(formatter)
 logger.addHandler(ch)
 
@@ -32,7 +32,7 @@ if (os.environ.get('TRAVIS_PULL_REQUEST', '').lower() == 'false' and
     headers = {
         'Authorization': 'Bearer {}'.format(TOKEN),
     }
-
-    requests.post(API_ENDPOINT, json=data, headers=headers)
+    r = requests.post(API_ENDPOINT, json=data, headers=headers)
+    logger.debug("Response status code: {}".format(r.status_code))
 else:
-    logger.debug("Not deployed (not on right branch or pull request.")
+    logger.debug("Not deployed (not on right branch or pull request).")
