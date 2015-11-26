@@ -13,8 +13,10 @@ before_install:
 - conda update -q conda
 - conda info -a
 - conda config --add channels http://conda.anaconda.org/openhydrology
-- conda create -q -n pyenv python=$TRAVIS_PYTHON_VERSION nose floodestimation
+- conda create -q -n pyenv python=$TRAVIS_PYTHON_VERSION nose requests floodestimation
 - source activate pyenv
+
+install: true
 
 script:
 - nosetests
