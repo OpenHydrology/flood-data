@@ -2,7 +2,8 @@
 
 Additional flood data for use in OH Auto Statistical (web version)
 
-File validator status: [![Build Status](https://travis-ci.org/faph/flood-data.svg)](https://travis-ci.org/faph/flood-data)
+File validator status: [![Build Status](https://travis-ci.org/openhydrology/flood-data.svg)]
+(https://travis-ci.org/openhydrology/flood-data)
 
 This repository contains flood flow data *additional* to the data included in
 the National River Flow Archive ([NRFA](http://nrfa.ceh.ac.uk/)). The web 
