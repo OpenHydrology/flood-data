@@ -29,6 +29,3 @@ For each station you want to update, do the following:
 
 **Your updates will become available for anybody using OH Auto Statistical.
 Please make sure your updates are correct and are from a reliable source.**
-
-If you have any questions or need support, please email [Florenz Hollebrandse]
-(fhollebrandse@envirocentre.co.uk).
