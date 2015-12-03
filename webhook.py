@@ -28,11 +28,12 @@ if (os.environ.get('TRAVIS_PULL_REQUEST', '').lower() == 'false' and
     logger.debug("Deploying...")
     data = {
         'url': DATA_SOURCE,
-    }
+        }
     headers = {
         'Authorization': 'Bearer {}'.format(TOKEN),
-    }
+        }
     r = requests.post(API_ENDPOINT, json=data, headers=headers)
     logger.debug("Response status code: {}".format(r.status_code))
+    logger.debug("Response content: {}".format(r.json()))
 else:
     logger.debug("Not deployed (not on right branch or pull request).")
