@@ -11,7 +11,7 @@ ch.setFormatter(formatter)
 logger.addHandler(ch)
 
 
-API_ENDPOINT = 'https://oh-auto-statistical-web-api.herokuapp.com/api/v0/data-import/'
+API_ENDPOINT = 'https://oh-auto-statistical-web-api.herokuapp.com/api/v0/data-imports/'
 TOKEN = os.environ['DATA_IMPORT_TOKEN']
 BRANCH_ONLY = 'master'
 DATA_SOURCE = 'https://github.com/{}/archive/{}.zip'.format(os.environ['TRAVIS_REPO_SLUG'], BRANCH_ONLY)
