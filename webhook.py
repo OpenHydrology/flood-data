@@ -34,6 +34,6 @@ if (os.environ.get('TRAVIS_PULL_REQUEST', '').lower() == 'false' and
         }
     r = requests.post(API_ENDPOINT, json=data, headers=headers)
     logger.debug("Response status code: {}".format(r.status_code))
-    logger.debug("Response content: {}".format(r.json()))
+    logger.debug("Response content: {}".format(r.text))
 else:
     logger.debug("Not deployed (not on right branch or pull request).")
