@@ -1,0 +1,50 @@
+[FILE FORMAT]
+TYPE,CD3
+VERSION,3.0
+[END]
+[STATION NUMBER]
+  8010
+[END]
+[CDS DETAILS]
+NAME,Spey
+LOCATION,Grantown
+NOMINAL AREA, 1748.80
+NOMINAL NGR,3033,8268
+[END]
+[DESCRIPTORS]
+IHDTM NGR,GB     ,303350,826800
+CENTROID NGR,GB,279940,802927
+DTM AREA, 1745.88
+ALTBAR, 495
+ASPBAR, 13
+ASPVAR,0.05
+BFIHOST,0.484
+DPLBAR, 51.18
+DPSBAR,158.7
+FARL,0.938
+FPEXT,0.0612
+LDP,102.35
+PROPWET,0.69
+RMED-1H,  9.3
+RMED-1D, 35.6
+RMED-2D, 51.1
+SAAR,1194
+SAAR4170,1235
+SPRHOST,46.42
+URBCONC1990,-9.999
+URBEXT1990,0.0005
+URBLOC1990,-9.999
+URBCONC2000,-9.999
+URBEXT2000,0.0012
+URBLOC2000,-9.999
+[END]
+[SUITABILITY]
+QMED,YES
+POOLING,YES
+[END]
+[COMMENTS]
+STATION,Velocity area station, about 60m wide, natural control. Improved data quality following move of recorder and cableway to a united site in mid-1987. All flows to date contained. RATING COMMENTS:2 rating editions used. From current metering: 1st rating up to 1.2m (about 1.2QMED), 2nd rating up to 2.5m (1.3QMED), simple extrapolation beyond. Both high flow ratings were revised by SEPA in 1996. Current meter gaugings between 1952-1955 were ignored.
+CATCHMENT,Granites and Moinian metamorphic. High moorland, forest cover (35%), pastoral and cropland in valley bottoms. Mountainous catchment, often snowy in winter. Altitudes: 1296mAOD (max), 193mAOD (min). Notable floodplains which may be an issue. Online Loch Insh and Insh Marshes: at high flows floodplain becomes part of loch, significant storage controlling about 50% of catchment. Hydrometric Register BFI=0.60. ARTIFICIAL INFLUENCES:22% of catchment developed for hydro-power with diversions and storage, significant net export, water use also for aluminium industry. Reservoirs for hydropower: Spey Dam (1944), Loch an T-Seilich (1941) and Cuaich (1961). Some forestry. CATCHMENT CHANGES:Low flow network set up in the 1990s. At Q95 compensation flows increased from Spey Dam. Interactions between Scottish Water, Spey Salmon Fisheries and Aluminium Industry.
+Qmed Suitability,No comment
+Pooling Suitability,No comment
+[END]
