@@ -1,0 +1,50 @@
+[FILE FORMAT]
+TYPE,CD3
+VERSION,3.0
+[END]
+[STATION NUMBER]
+  8006
+[END]
+[CDS DETAILS]
+NAME,Spey
+LOCATION,Boat o Brig
+NOMINAL AREA, 2861.20
+NOMINAL NGR,3318,8518
+[END]
+[DESCRIPTORS]
+IHDTM NGR,GB     ,331850,851850
+CENTROID NGR,GB,294879,812741
+DTM AREA, 2852.40
+ALTBAR, 460
+ASPBAR, 17
+ASPVAR,0.06
+BFIHOST,0.485
+DPLBAR, 87.41
+DPSBAR,156.9
+FARL,0.959
+FPEXT,0.0525
+LDP,162.33
+PROPWET,0.63
+RMED-1H,  9.2
+RMED-1D, 36.8
+RMED-2D, 51.6
+SAAR,1119
+SAAR4170,1183
+SPRHOST,43.98
+URBCONC1990,-9.999
+URBEXT1990,0.0009
+URBLOC1990,-9.999
+URBCONC2000,-9.999
+URBEXT2000,0.0013
+URBLOC2000,-9.999
+[END]
+[SUITABILITY]
+QMED,YES
+POOLING,YES
+[END]
+[COMMENTS]
+STATION,Velocity area station, about 65m wide, natural control. Floods above 2.5m bypass station on LHB through arches of railway bridge, but it is believed that this can only represent a small percentage of the overall flow. RATING COMMENTS:Rating derived from current meter gaugings up to 2.5m (1.3QMED), simple extrapolation beyond. High flow rating was revised in 1999 (by SEPA) and a new single rating was judged to be suitable for whole period of record.
+CATCHMENT,Granites and Moinian metamorphics. Dalradian with a little Old Red Sandstone. Mountainous catchment (includes all north slopes of Cairngorms), often snowy in winter. Altitudes: 1309mAOD (max), 43mAOD (min). Moorland, hill grazing, forest cover (15%), limited arable land downstream. Online storage at Loch Insh and Insh marshes - at high flows floodplain becomes part of loch. Significant storage controlling about 30% of catchment. Hydrometric Register BFI=0.61. ARTIFICIAL INFLUENCES:380 sq km (13%) developed for hydro-power with diversions and storage; limited net impact on annual runoff (small loss). Reservoirs used for hydropower: Spey Dam (1944), Loch an T-Seilich (1941) and Cuaich (1961). Water use also for aluminium industry. CATCHMENT CHANGES:No significant changes known. Cuaich Dam (1961) controls a very small amount of the overall catchment.
+Qmed Suitability,Suitable for QMED estimation
+Pooling Suitability,Suitable for use in pooling groups
+[END]
