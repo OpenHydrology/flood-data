@@ -1,0 +1,50 @@
+[FILE FORMAT]
+TYPE,CD3
+VERSION,3.0
+[END]
+[STATION NUMBER]
+ 84005
+[END]
+[CDS DETAILS]
+NAME,Clyde
+LOCATION,Blairston
+NOMINAL AREA, 1704.20
+NOMINAL NGR,2704,6579
+[END]
+[DESCRIPTORS]
+IHDTM NGR,GB     ,270350,657950
+CENTROID NGR,GB,286797,637116
+DTM AREA, 1699.42
+ALTBAR, 279
+ASPBAR,  7
+ASPVAR,0.07
+BFIHOST,0.422
+DPLBAR, 57.46
+DPSBAR, 97.3
+FARL,0.959
+FPEXT,0.0643
+LDP,120.26
+PROPWET,0.59
+RMED-1H,  9.2
+RMED-1D, 36.2
+RMED-2D, 50.2
+SAAR,1139
+SAAR4170,1151
+SPRHOST,41.89
+URBCONC1990, 0.703
+URBEXT1990,0.0132
+URBLOC1990, 0.272
+URBCONC2000, 0.817
+URBEXT2000,0.0182
+URBLOC2000, 0.325
+[END]
+[SUITABILITY]
+QMED,YES
+POOLING,YES
+[END]
+[COMMENTS]
+STATION,Velocity area station, about 60 m wide, natural control. Cableway rated until June 1990 when station became level-only. Recorder moved from opposite bank in 1974. Velocity profile slightly uneven due to upstream bend. Control formed by piers of redundant rail bridge 300 m downstream. Steep grass and tree covered banks. Station is subject to vandalism. RATING COMMENTS:Rating derived from current meter gaugings up to 3.4 m (1.8QMED), simple extrapolation beyond.
+CATCHMENT,Geology predominantly Ordovician sandstones and shales. Lowther Hills are Silurian limestone, other upland areas are Carboniferous basaltic lavas. Variable drift cover. Altitudes: 732 mAOD (max), 17 mAOD (min). Hill grazing and moorland on high ground, some afforestation, fruit farming in the valley. Urbanised in lower catchment. Hydrometric Register BFI=0.45. ARTIFICIAL INFLUENCES:Several upland tributaries impounded for public water supply. River is utilised for hydro-electric power in catchment upstream of New Lanark; however this scheme does not involve damming, abstraction or diversion so exerts little or no influence on flow regime. CATCHMENT CHANGES:Lower catchment subject to rapid urbanisation.
+Qmed Suitability,No comment
+Pooling Suitability,No comment
+[END]
