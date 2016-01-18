@@ -1,0 +1,50 @@
+[FILE FORMAT]
+TYPE,CD3
+VERSION,3.0
+[END]
+[STATION NUMBER]
+ 76007
+[END]
+[CDS DETAILS]
+NAME,Eden
+LOCATION,Sheepmount
+NOMINAL AREA, 2286.50
+NOMINAL NGR,3390,5571
+[END]
+[DESCRIPTORS]
+IHDTM NGR,GB     ,338950,557100
+CENTROID NGR,GB,355830,534240
+DTM AREA, 2276.03
+ALTBAR, 248
+ASPBAR,329
+ASPVAR,0.08
+BFIHOST,0.489
+DPLBAR, 62.17
+DPSBAR,103.3
+FARL,0.971
+FPEXT,0.0741
+LDP,125.23
+PROPWET,0.64
+RMED-1H, 10.7
+RMED-1D, 39.9
+RMED-2D, 53.7
+SAAR,1182
+SAAR4170,1224
+SPRHOST,37.80
+URBCONC1990, 0.656
+URBEXT1990,0.0056
+URBLOC1990, 0.441
+URBCONC2000, 0.769
+URBEXT2000,0.0082
+URBLOC2000, 0.522
+[END]
+[SUITABILITY]
+QMED,YES
+POOLING,YES
+[END]
+[COMMENTS]
+STATION,Velocity area station at a deep, slack section; permanent cableway. Full range. Most floods contained in immediate channel, and are attenuated by large flood storage area just upstream. Prior to 1970 (when flood banks constructed), bypassed via Caldew floodplain. River approximately 35 m wide at gauging section. Flood Studies Report grade B. RATING COMMENTS:One rating applied across period of record derived from current meter gaugings.
+CATCHMENT,Headwaters on Carboniferous Limestone of Pennines to east, impervious Lower Palaeozoics of Lake District Massif to west. Land use predominantly moorland in headwaters, arable and grazing in Vale of Eden. Extensive Boulder Clay covers Permo-Triassic sandstone in Vale of Eden. Catchment includes Ullswater, which drains 6% of area. Tidal limit is 1.4 km downstream. Urban areas of catchment Carlisle, Penrith and Appleby. ARTIFICIAL INFLUENCES:Haweswater and Wet Sleddale Reservoirs control 2% of catchment naturally, though actual proportion may be higher as Haweswater collects water from Lowther tributaries. CATCHMENT CHANGES:No significant catchment changes.
+Qmed Suitability,Gauged above QMED.
+Pooling Suitability,Gauged to within 3% of AMAX3 [18/01/2016 note: this statement is probably no longer true]. Good fit to gaugings
+[END]
