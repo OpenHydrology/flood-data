@@ -6,7 +6,7 @@ File validator status: [![Build Status](https://travis-ci.org/OpenHydrology/floo
 (https://travis-ci.org/OpenHydrology/flood-data)
 
 This repository contains flood flow data *additional* to the data included in
-the National River Flow Archive ([NRFA](http://nrfa.ceh.ac.uk/)). The web 
+the National River Flow Archive ([NRFA](http://nrfa.ceh.ac.uk/)). The web
 version of OH Auto Statistical pulls in these additional data to allow flood
 frequency-magnitude estimation using the most up to date data available.
 
@@ -30,3 +30,7 @@ For each station you want to update, do the following:
 
 **Your updates will become available for anybody using OH Auto Statistical.
 Please make sure your updates are correct and are from a reliable source.**
+
+Contains data from the Scottish Environment Protection Agency and the
+Environment Agency. © Scottish Environment Protection Agency / Environment
+Agency 2015-2016.
