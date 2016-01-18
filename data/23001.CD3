@@ -1,0 +1,50 @@
+[FILE FORMAT]
+TYPE,CD3
+VERSION,3.0
+[END]
+[STATION NUMBER]
+ 23001
+[END]
+[CDS DETAILS]
+NAME,Tyne
+LOCATION,Bywell
+NOMINAL AREA, 2175.60
+NOMINAL NGR,4038,5617
+[END]
+[DESCRIPTORS]
+IHDTM NGR,GB     ,403850,561650
+CENTROID NGR,GB,378954,572789
+DTM AREA, 2172.36
+ALTBAR, 286
+ASPBAR, 83
+ASPVAR,0.09
+BFIHOST,0.318
+DPLBAR, 55.02
+DPSBAR, 93.7
+FARL,0.961
+FPEXT,0.0504
+LDP, 94.29
+PROPWET,0.51
+RMED-1H,  9.9
+RMED-1D, 35.6
+RMED-2D, 47.7
+SAAR,1016
+SAAR4170,1082
+SPRHOST,48.19
+URBCONC1990,-9.999
+URBEXT1990,0.0020
+URBLOC1990,-9.999
+URBCONC2000,-9.999
+URBEXT2000,0.0026
+URBLOC2000,-9.999
+[END]
+[SUITABILITY]
+QMED,YES
+POOLING,YES
+[END]
+[COMMENTS]
+STATION,Principal gauging station on the Tyne. Velocity-area station with cableway on a wide reach. Removal of gravel from d/s river bed between 1961 and 1963 affected water levels, leading to replacement of stilling well at lower level; high flows relatively unaffected. Before 1961 and after 1964 station considered good for high flow measurement. Banks undermined at present (2003). Flood Studies Report grade A1 before and after 1962-65, B during. RATING COMMENTS:Two ratings applied across period of record, the most recent is valid from January-1982. Gravel extraction and subsequent shifting control necessitated use of multiple ratings which fit well to corresponding gaugings. [18/01/2016 note: flow data supplied by EA (2012-2016) doesn't match NRFA records, data pre-2012 may be incorrect]
+CATCHMENT,A large catchment (2175.6 km2) with a predominantly natural regime, draining from the north Pennines and including Kielder reservoir which controls 241 km2 (11%) of the catchment. The geology is impervious Carboniferous limestone. Much of the catchment is moorland, with some significant afforestation; the lower valley supports arable farming. ARTIFICIAL INFLUENCES:In drought years, releases from Kielder reservoir maintain low flows and support transfers to the Derwent, Wear and Tees. Riding Mill abstraction is 500 m u/s of the gauging station. Some export of water, and regime is influenced by hydropower releases from Kielder reservoir. CATCHMENT CHANGES:Kielder reservoir impounded 1982. Kielder forest planting began in 1926 and has increased continuously to 500 km2 in 2003 (although not all of this is within the Tyne catchment).
+Qmed Suitability,Gauged above QMED. Although no structural control, rating extrapolation is supported by gaugings and no bypassing is known of.
+Pooling Suitability,Gauged to within 20% of AMAX3. Although no structural control, rating extrapolation is supported by gaugings and no bypassing is known of.
+[END]
