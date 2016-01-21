@@ -1,0 +1,7 @@
+{ "type": "FeatureCollection",
+    "features": [
+{%- for catchment in catchments %}
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[{{ catchment.point_wgs84.x|round(6) }},{{ catchment.point_wgs84.y|round(6) }}]},"properties":{"id":{{ catchment.id }},"river":"{{ catchment.watercourse }}","location":"{{ catchment.location }}","country":"{{ catchment.country }}","area":"{{ catchment.descriptors.dtm_area|int }} km²","Median flood donor":"{{ "yes" if catchment.is_suitable_for_qmed else "no" }}","Growth curve donor":"{{ "yes" if catchment.is_suitable_for_pooling else "no" }}"}}{% if not loop.last %},{% endif %}
+{%- endfor %}
+    ]
+  }

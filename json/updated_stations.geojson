@@ -1,0 +1,19 @@
+{ "type": "FeatureCollection",
+    "features": [
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[-3.206552,57.480015]},"properties":{"id":8001,"river":"Spey","location":"Aberlour","country":"gb","area":"2645 km²","Median flood donor":"no","Growth curve donor":"no"}},
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[-3.850446,57.151455]},"properties":{"id":8002,"river":"Spey","location":"Kinrara","country":"gb","area":"1008 km²","Median flood donor":"yes","Growth curve donor":"yes"}},
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[-3.140405,57.551598]},"properties":{"id":8006,"river":"Spey","location":"Boat o Brig","country":"gb","area":"2852 km²","Median flood donor":"yes","Growth curve donor":"yes"}},
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[-4.166205,57.03812]},"properties":{"id":8007,"river":"Spey","location":"Invertruim","country":"gb","area":"401 km²","Median flood donor":"yes","Growth curve donor":"no"}},
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[-3.99818,57.070567]},"properties":{"id":8008,"river":"Tromie","location":"Tromie Bridge","country":"gb","area":"131 km²","Median flood donor":"yes","Growth curve donor":"yes"}},
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[-3.60655,57.321475]},"properties":{"id":8010,"river":"Spey","location":"Grantown","country":"gb","area":"1745 km²","Median flood donor":"yes","Growth curve donor":"yes"}},
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[-3.900847,57.118804]},"properties":{"id":8013,"river":"Feshie","location":"Feshie Bridge","country":"gb","area":"229 km²","Median flood donor":"no","Growth curve donor":"no"}},
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[-2.18543,57.217516]},"properties":{"id":11001,"river":"Don","location":"Parkhill","country":"gb","area":"1269 km²","Median flood donor":"yes","Growth curve donor":"yes"}},
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[-2.286085,56.851261]},"properties":{"id":13001,"river":"Bervie","location":"Inverbervie","country":"gb","area":"124 km²","Median flood donor":"yes","Growth curve donor":"yes"}},
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[-2.656094,56.726787]},"properties":{"id":13008,"river":"South Esk","location":"Brechin","country":"gb","area":"489 km²","Median flood donor":"yes","Growth curve donor":"yes"}},
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[-3.344118,55.944949]},"properties":{"id":19017,"river":"Gogar Burn","location":"Turnhouse","country":"gb","area":"32 km²","Median flood donor":"yes","Growth curve donor":"yes"}},
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[-1.941422,54.949488]},"properties":{"id":23001,"river":"Tyne","location":"Bywell","country":"gb","area":"2172 km²","Median flood donor":"yes","Growth curve donor":"yes"}},
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[-2.872798,52.72448]},"properties":{"id":54005,"river":"Severn","location":"Montford","country":"gb","area":"2026 km²","Median flood donor":"yes","Growth curve donor":"yes"}},
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[-2.953639,54.90487]},"properties":{"id":76007,"river":"Eden","location":"Sheepmount","country":"gb","area":"2276 km²","Median flood donor":"yes","Growth curve donor":"yes"}},
+        {"type":"Feature","geometry":{"type": "Point", "coordinates":[-4.154484,55.96085]},"properties":{"id":84020,"river":"Glazert Water","location":"Milton of Campsie","country":"gb","area":"51 km²","Median flood donor":"yes","Growth curve donor":"yes"}}
+    ]
+  }
