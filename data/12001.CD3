@@ -1,0 +1,50 @@
+[FILE FORMAT]
+TYPE,CD3
+VERSION,3.0
+[END]
+[STATION NUMBER]
+ 12001
+[END]
+[CDS DETAILS]
+NAME,Dee
+LOCATION,Woodend
+NOMINAL AREA, 1370.00
+NOMINAL NGR,3635,7956
+[END]
+[DESCRIPTORS]
+IHDTM NGR,GB     ,363450,795650
+CENTROID NGR,GB,325598,793481
+DTM AREA, 1380.04
+ALTBAR, 512
+ASPBAR, 93
+ASPVAR,0.07
+BFIHOST,0.506
+DPLBAR, 60.39
+DPSBAR,185.7
+FARL,0.976
+FPEXT,0.0468
+LDP,107.51
+PROPWET,0.62
+RMED-1H,  8.5
+RMED-1D, 38.0
+RMED-2D, 53.3
+SAAR,1108
+SAAR4170,1193
+SPRHOST,40.27
+URBCONC1990,-9.999
+URBEXT1990,0.0005
+URBLOC1990,-9.999
+URBCONC2000,-9.999
+URBEXT2000,0.0010
+URBLOC2000,-9.999
+[END]
+[SUITABILITY]
+QMED,YES
+POOLING,YES
+[END]
+[COMMENTS]
+STATION,Velocity area station, about 60m wide, fairly stable natural control. Flow records for Woodend are an amalgamation from two different stations. Cairnton, located approx. 1 mile d/s from Woodend at an abstraction point, operated from 1911 (early readings are daily). Flow records from 1929-72 at Cairnton by Capt McClean. Since 1934 Woodend used for calculating flows at Cairnton, both stations fitted with chart recorders. Cairnton continued operating until the end of 1984. Present station at Woodend built in 1972. RATING COMMENTS:From 1929, rating for Cairnton derived by correlation with current meter measurements at Woodend. From 1972, rating at Woodend derived from current meter gaugings up to 2.7m (about QMED), simple extrapolation beyond.
+CATCHMENT,Dalradian and Moinian metamorphics along most of valley, flanked by igneous intrusives. Mountainous headwaters, often snowy in winter. Altitudes: 1309mAOD (max), 70mAOD (min). High moorland, forest cover (15%), pastoral and some arable in lower valleys. Hydrometric Register BFI=0.54. ARTIFICIAL INFLUENCES:Natural regime (though some minor abstractions). CATCHMENT CHANGES:No significant changes known.
+Qmed Suitability,No comment
+Pooling Suitability,No comment
+[END]
