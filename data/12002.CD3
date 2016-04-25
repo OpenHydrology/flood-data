@@ -1,0 +1,50 @@
+[FILE FORMAT]
+TYPE,CD3
+VERSION,3.0
+[END]
+[STATION NUMBER]
+ 12002
+[END]
+[CDS DETAILS]
+NAME,Dee
+LOCATION,Park
+NOMINAL AREA, 1844.00
+NOMINAL NGR,3798,7983
+[END]
+[DESCRIPTORS]
+IHDTM NGR,GB     ,379750,798350
+CENTROID NGR,GB,335381,793266
+DTM AREA, 1833.26
+ALTBAR, 447
+ASPBAR, 82
+ASPVAR,0.07
+BFIHOST,0.507
+DPLBAR, 66.96
+DPSBAR,169.4
+FARL,0.980
+FPEXT,0.0483
+LDP,127.75
+PROPWET,0.58
+RMED-1H,  8.5
+RMED-1D, 38.5
+RMED-2D, 53.6
+SAAR,1080
+SAAR4170,1162
+SPRHOST,39.69
+URBCONC1990,-9.999
+URBEXT1990,0.0008
+URBLOC1990,-9.999
+URBCONC2000,-9.999
+URBEXT2000,0.0016
+URBLOC2000,-9.999
+[END]
+[SUITABILITY]
+QMED,YES
+POOLING,YES
+[END]
+[COMMENTS]
+STATION,Velocity area station, about 50m wide, unstable natural control causing frequent changes in low and medium flow rating. RATING COMMENTS:Rating derived from current meter gaugings up to 4m (1.15QMED), simple extrapolation beyond. New rating produced in 1999 and applied to the entire record.
+CATCHMENT,Dalradian and Moinian metamorphics along most of the valley, flanked by igneous intrusives. Altitudes 1310mAOD (max), 23mAOD (min). Mountainous headwaters, often snowy in winter. Moorland, pastoral and some arable in valley bottom, forest cover (20%). Hydrometric Register BFI=0.54. ARTIFICIAL INFLUENCES:Abstraction for PWS of approximately 0.7 cumecs between Woodend (12001) and Park (accounts for almost 10% of Q95 flow). CATCHMENT CHANGES:No significant changes known.
+Qmed Suitability,No comment
+Pooling Suitability,No comment
+[END]
