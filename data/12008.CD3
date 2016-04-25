@@ -1,0 +1,50 @@
+[FILE FORMAT]
+TYPE,CD3
+VERSION,3.0
+[END]
+[STATION NUMBER]
+ 12008
+[END]
+[CDS DETAILS]
+NAME,Feugh
+LOCATION,Heugh Head
+NOMINAL AREA,  229.00
+NOMINAL NGR,3687,7928
+[END]
+[DESCRIPTORS]
+IHDTM NGR,GB     ,368700,792750
+CENTROID NGR,GB,360826,787475
+DTM AREA,  232.84
+ALTBAR, 330
+ASPBAR, 39
+ASPVAR,0.15
+BFIHOST,0.427
+DPLBAR, 16.85
+DPSBAR,146.5
+FARL,0.998
+FPEXT,0.0381
+LDP, 30.34
+PROPWET,0.54
+RMED-1H,  8.8
+RMED-1D, 44.0
+RMED-2D, 59.7
+SAAR,1130
+SAAR4170,1185
+SPRHOST,44.79
+URBCONC1990,-9.999
+URBEXT1990,0.0000
+URBLOC1990,-9.999
+URBCONC2000,-9.999
+URBEXT2000,0.0002
+URBLOC2000,-9.999
+[END]
+[SUITABILITY]
+QMED,YES
+POOLING,YES
+[END]
+[COMMENTS]
+STATION,Velocity-area station, about 20m wide, natural control. May be influenced by a fishing jetty a short distance d/s from gauging station. RATING COMMENTS:Rating derived from current meter gaugings up to 4m and (about QMED) simple extrapolation beyond. One rating has been applied to the entire record.
+CATCHMENT,Rugged topography, mostly moorland and upland pasture, developed largely on granites and metamorphics. Mountainous headwaters, often snowy in winter. Altitudes: 778mAOD (max), 69mAOD (min). Forest cover (20%). Flashy response Hydrometric Register BFI=0.48. ARTIFICIAL INFLUENCES:Abstraction for PWS (at Charr) accounts for <5% of Q95 flow. Some afforestation in Glen Dye. Off-line storage reservoir installed in early 1990s with connection back to the river, which might have an influence on flows. CATCHMENT CHANGES:Modified abstractions, creation of off-line storage reservoir in early 1990s.
+Qmed Suitability,No comment
+Pooling Suitability,No comment
+[END]
