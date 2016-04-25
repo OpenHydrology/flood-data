@@ -1,3 +1,14 @@
+# conda execute
+# channels:
+#  - openhydrology
+#  - conda-forge
+# env:
+#  - python >=3
+#  - floodestimation
+#  - pyproj >=1.9.5
+#  - jinja2
+# run_with: python
+
 from floodestimation.entities import Catchment, Point
 from floodestimation import db
 from floodestimation import loaders
