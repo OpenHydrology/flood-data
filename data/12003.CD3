@@ -1,0 +1,50 @@
+[FILE FORMAT]
+TYPE,CD3
+VERSION,3.0
+[END]
+[STATION NUMBER]
+ 12003
+[END]
+[CDS DETAILS]
+NAME,Dee                   
+LOCATION,Polhollick                         
+NOMINAL AREA,  690.00
+NOMINAL NGR,3344,7965
+[END]
+[DESCRIPTORS]
+IHDTM NGR,GB     ,334350,796450
+CENTROID NGR,GB,311368,790126
+DTM AREA,  697.46
+ALTBAR, 621
+ASPBAR, 95
+ASPVAR,0.04
+BFIHOST,0.459
+DPLBAR, 37.06
+DPSBAR,219.6
+FARL,0.986
+FPEXT,0.0378
+LDP, 62.86
+PROPWET,0.68
+RMED-1H,  8.7
+RMED-1D, 39.0
+RMED-2D, 55.0
+SAAR,1231
+SAAR4170,1341
+SPRHOST,44.94
+URBCONC1990,-9.999
+URBEXT1990,0.0001
+URBLOC1990,-9.999
+URBCONC2000,-9.999
+URBEXT2000,0.0001
+URBLOC2000,-9.999
+[END]
+[SUITABILITY]
+QMED,YES
+POOLING,YES
+[END]
+[COMMENTS]
+STATION,Velocity-area station, about 52m wide, natural control. RATING COMMENTS:Rating derived from current meter gaugings up to 2.3m (1.31QMED), simple extrapolation beyond.  One rating has been applied to the whole record.
+CATCHMENT,Dalradian and Moinian metamorphics with basic intrusions. Altitudes: 1310mAOD (max), 217mAOD (min). Mountainous headwaters, snowy in winter. Forest cover (10%), moorland and pastoral.  Hydrometric Register BFI=0.51. ARTIFICIAL INFLUENCES:Natural flow regime. CATCHMENT CHANGES:No significant changes known.
+Qmed Suitability,No comment
+Pooling Suitability,No comment
+[END]
